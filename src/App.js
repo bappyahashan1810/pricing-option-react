@@ -1,8 +1,9 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Header from './Components/Header/Header';
+
 import Navbar from './Components/NavBar/NavBar';
 import PricingOptions from './Components/PricingOptions/PricingOptions';
+import Rechart from './Components/Rechart/Rechart';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       {/* <Header></Header> */}
       <Navbar></Navbar>
       <PricingOptions></PricingOptions>
+      <Rechart></Rechart>
     </div>
   );
 }
